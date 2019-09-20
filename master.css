@@ -1,4 +1,4 @@
-body
-{
-	<img src="Imagenes/banco.png" width="120" height="250" />
+.alert{
+   background-color: #FFFFCC;
+   background-image: url(alert.png);
 }
