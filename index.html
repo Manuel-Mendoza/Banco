@@ -13,18 +13,11 @@
       <input type="number" id="dinero" style="width : 20%;height: 3em;border-radius:20pt;font-size: 2em;
       text-align: center;" placeholder="Introduzca">
       <input type="button" value="Extraer" id="Extraer" style="width: 20%; height: 3em; font-size: 200%;">
-      <input type="button" value="Actualizar" id="Actualizar" style="width: 20%; height: 3em; font-size: 200%;">
+      <input onclick="location.reload()" type="button" value="Actualizar" id="Actualizar" style="width: 20%; height: 3em; font-size: 200%;">
     </p>
     <i id="resultado"></i>
     <script src="operadorautomatico.js"></script>
-    <script>
-      function actualizar()
-      {
-        alert("Hola Mundo")
-      }
-    var updt = document.getElementById("Actualizar");
-    updt.addEventListener("click", actualizar)
-    </script>
+    <!--<script src="actualizar.js"></script>-->
   </center>
 </body>
 </html>
