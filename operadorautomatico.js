@@ -48,8 +48,8 @@ function entregarDinero()
   }
   if (dinero > 0)
   {
-  resultado.innerHTML = "\nNo tengo esa cantidad de Dinero!!"
-  nada();
+    resultado.innerHTML = "\nNo tengo esa cantidad de Dinero!!"
+    nada();
   }
   else
   {
@@ -58,7 +58,8 @@ function entregarDinero()
       if (e.cantidad > 0)
        {
           //resultado.innerHTML +=  e.cantidad +" Billetes de " + e.valor+"<br />"
-          billetera(e.cantidad, e.valor);
+          //billetera(e.cantidad, e.valor);
+          nada();
       }
     }
   }
