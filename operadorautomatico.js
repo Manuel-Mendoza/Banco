@@ -50,7 +50,7 @@ function entregarDinero()
     {
       if (e.cantidad > 0)
        {
-          resultado.innerHTML +=  e.cantidad +" Billetes de " + e.valor+"<br />"
+          //resultado.innerHTML +=  e.cantidad +" Billetes de " + e.valor+"<br />"
           billetera(e.cantidad, e.valor);
       }
     }
@@ -83,4 +83,3 @@ var muchis_blasdiasd =
 var resultado = document.getElementById("resultado")
 var b = document.getElementById("Extraer");
 b.addEventListener("click", entregarDinero)
-//quede en el minuto (32:45)
