@@ -20,9 +20,11 @@
     <script>
       function actualizar()
       {
-        alert("Hola Mundo")
+        (function()
+        {
+          setInterval(function(){}, 100)
+        }()
       }
-      
     var updt = document.getElementById("Actualizar");
     updt.addEventListener("click", actualizar)
     </script>
