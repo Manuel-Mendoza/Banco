@@ -43,6 +43,7 @@ function entregarDinero()
   if (dinero > 0)
   {
   resultado.innerHTML = "\nNo tengo esa cantidad de Dinero!!"
+  nohay;
   }
   else
   {
@@ -72,6 +73,7 @@ var dinero;
 var div = 0;
 var papeles = 0;
 
+var nohay="<img src = 'Imagenes/FotoJet.png></img>"
 var muchis_blasdiasd =
 {
   "50":"<img src = 'Imagenes/Billete50.png'></img>",
