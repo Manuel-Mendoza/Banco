@@ -48,7 +48,7 @@ function entregarDinero()
   if (dinero > 0)
   {
   resultado.innerHTML = "\nNo tengo esa cantidad de Dinero!!"
-  nada()
+  nada();
   }
   else
   {
