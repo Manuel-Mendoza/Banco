@@ -1,7 +1,6 @@
 body
 {
 	background:url('Imagenes/banco.png') no-repeat center center;
-	min-height:100%;
-	background-size:cover;
-	
+	background-size:cover; 
+
 }
