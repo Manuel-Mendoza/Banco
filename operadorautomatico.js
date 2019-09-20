@@ -74,10 +74,10 @@ var papeles = 0;
 
 var muchis_blasdiasd =
 {
-  "50":"<img src = 'Billete50.png'></img>",
-  "10":"<img src = 'Billete_de_10.png'></img>",
-  "100":"<img src = '100.jpg'></img>",
-  "20":"<img src = '20.png'></img>"
+  "50":"<img src = 'Imagenes/Billete50.png'></img>",
+  "10":"<img src = 'Imagenes/Billete_de_10.png'></img>",
+  "100":"<img src = 'Imagenes/100.jpg'></img>",
+  "20":"<img src = 'Imagenes/20.png'></img>"
 }
 
 var resultado = document.getElementById("resultado")
