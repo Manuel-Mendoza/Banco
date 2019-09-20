@@ -17,6 +17,11 @@ function billetera(cantidad, valor)
   }
 }
 
+function nada()
+{
+  nohay;
+}
+
 function entregarDinero()
 {
   var t = document.getElementById("dinero");
@@ -43,7 +48,7 @@ function entregarDinero()
   if (dinero > 0)
   {
   resultado.innerHTML = "\nNo tengo esa cantidad de Dinero!!"
-  resultado.innerHTML = nohay;
+  nada()
   }
   else
   {
