@@ -20,7 +20,7 @@ function billetera(cantidad, valor)
 function nada()
 {
   //resultado.innerHTML = nohay;
-  Alert("Funciona")
+  Alert("Funciona");
 }
 
 function entregarDinero()
