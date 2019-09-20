@@ -1,5 +1,6 @@
 body
 {
-   background-color:##4e0000; 
-   background-image: url(Imagenes/banco.png), url(Imagenes/walppaper.jpg);
+    background-image: url(Imagenes/banco.png), url(Imagenes/walppaper.jpg);
+    background-color:#4e0000; 
+
 }
