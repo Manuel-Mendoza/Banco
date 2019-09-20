@@ -2,5 +2,9 @@ body
 {
     background-image: url(Imagenes/banco.png), url(Imagenes/walppaper.jpg);
     background-color:#4e0000; 
+}
 
+h1
+{
+	color: white;
 }
