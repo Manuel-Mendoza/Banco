@@ -19,7 +19,7 @@ function billetera(cantidad, valor)
 
 function nada()
 {
-  nohay;
+  mostrar = nohay;
 }
 
 function entregarDinero()
