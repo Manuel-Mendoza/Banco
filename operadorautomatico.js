@@ -88,4 +88,4 @@ var muchis_blasdiasd ={
 
 var resultado = document.getElementById("resultado")
 var b = document.getElementById("Extraer");
-b.addEventListener("click", entregarDinero)
+b.addEventListener("click", entregarDinero);
