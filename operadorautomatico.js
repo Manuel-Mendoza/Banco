@@ -22,6 +22,7 @@ function nada()
   resultado.innerHTML += nohay;
 }
 
+
 function entregarDinero()
 {
   var t = document.getElementById("dinero");
@@ -58,10 +59,9 @@ function entregarDinero()
        {
           //resultado.innerHTML +=  e.cantidad +" Billetes de " + e.valor+"<br />"
           billetera(e.cantidad, e.valor);
-      }
+        }
     }
   }
-}
 //fin de la funcion ---------------------------------------------------
 
 
