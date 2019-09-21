@@ -62,6 +62,7 @@ function entregarDinero()
         }
     }
   }
+}
 //fin de la funcion ---------------------------------------------------
 
 
@@ -84,8 +85,8 @@ var muchis_blasdiasd ={
   "10":"<img src = 'Imagenes/Billete_de_10.png'></img>",
   "100":"<img src = 'Imagenes/100.jpg'></img>",
   "20":"<img src = 'Imagenes/20.png'></img>"
-}
+};
 
 var resultado = document.getElementById("resultado");
 var b = document.getElementById("Extraer");
-b.addEventListener("click", entregarDinero);
+addEventListener("click", entregarDinero);
