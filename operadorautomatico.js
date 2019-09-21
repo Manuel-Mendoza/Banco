@@ -79,8 +79,7 @@ var div = 0;
 var papeles = 0;
 
 var nohay="<img src = 'Imagenes/FotoJet.png'></img>"
-var muchis_blasdiasd =
-{
+var muchis_blasdiasd ={
   "50":"<img src = 'Imagenes/Billete50.png'></img>",
   "10":"<img src = 'Imagenes/Billete_de_10.png'></img>",
   "100":"<img src = 'Imagenes/100.jpg'></img>",
