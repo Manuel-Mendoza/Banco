@@ -86,6 +86,6 @@ var muchis_blasdiasd ={
   "20":"<img src = 'Imagenes/20.png'></img>"
 }
 
-var resultado = document.getElementById("resultado")
+var resultado = document.getElementById("resultado");
 var b = document.getElementById("Extraer");
 b.addEventListener("click", entregarDinero);
